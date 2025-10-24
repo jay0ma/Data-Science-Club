@@ -27,6 +27,9 @@ Next steps you might want to do:
 
 If you'd like, I can add any of those next. (For example: wire a simple JSON-driven events list or prepare the site for GitHub Pages.)
 
+New page: `initiatives.html`
+- Shows our project initiatives (Tokyo restaurant, Hotel in Spain, Travel Magazine, NGOs, Small Japanese Businesses) with example dashboard placeholders and what we plan to deliver (dashboards, segmentation, business recommendations).
+
 This repository now includes an interactive monthly calendar under the "Upcoming Events" section. The calendar shows placeholder events and supports month navigation. Click a day to see events for that date.
 
 How to view locally (quick):

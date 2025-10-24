@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Initiatives — Data Science Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true">
+            <rect width="24" height="24" rx="5" fill="#0ea5e9"></rect>
+            <text x="12" y="16" text-anchor="middle" font-size="11" fill="white" font-family="Inter, sans-serif">DS</text>
+          </svg>
+          <span class="brand-text">Data Science Club</span>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#goals">Goals</a></li>
+            <li><a href="index.html#leaders">Leaders</a></li>
+            <li><a href="index.html#events">Events</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="initiatives.html" aria-current="page">Initiatives</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" aria-labelledby="initiativesTitle">
+        <h2 id="initiativesTitle">Our Initiatives</h2>
+        <p class="small">We work on real-world business problems and build dashboards to provide actionable recommendations. Below are our active and planned initiatives with example dashboard mockups and the business questions we aim to answer.</p>
+
+        <div class="initiatives-grid">
+          <article class="initiative-card">
+            <div class="thumb">
+              <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" class="thumb-svg"><rect width="120" height="80" rx="8" fill="#0ea5e9" opacity="0.12"/><text x="60" y="44" text-anchor="middle" font-size="12" fill="#0ea5e9">Tokyo Restaurant</text></svg>
+            </div>
+            <h3>Tokyo Restaurant — Real-world business experience</h3>
+            <p class="muted small">Create dashboards to monitor reservations, peak hours, menu performance, and customer segments. Advise on pricing and staffing.</p>
+            <ul class="initiative-list">
+              <li>Dashboards: Daily covers, table turnover, menu item performance</li>
+              <li>Business decisions: Pricing recommendations, staffing optimization</li>
+              <li>Customer segmentation: Frequent vs. occasional diners, promotion targeting</li>
+            </ul>
+          </article>
+
+          <article class="initiative-card">
+            <div class="thumb">
+              <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" class="thumb-svg"><rect width="120" height="80" rx="8" fill="#34d399" opacity="0.12"/><text x="60" y="44" text-anchor="middle" font-size="12" fill="#34d399">Hotel (Spain)</text></svg>
+            </div>
+            <h3>Hotel in Spain — Hospitality analytics</h3>
+            <p class="muted small">Analyze booking channels, occupancy, ADR (average daily rate), and guest reviews. Provide segmentation by guest type and seasonality.</p>
+            <ul class="initiative-list">
+              <li>Dashboards: Occupancy trends, revenue per available room (RevPAR)</li>
+              <li>Business decisions: Channel mix, promotional timing</li>
+              <li>Segmentation: Business vs leisure, repeat guests</li>
+            </ul>
+          </article>
+
+          <article class="initiative-card">
+            <div class="thumb">
+              <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" class="thumb-svg"><rect width="120" height="80" rx="8" fill="#f59e0b" opacity="0.12"/><text x="60" y="44" text-anchor="middle" font-size="12" fill="#f59e0b">Travel Magazine</text></svg>
+            </div>
+            <h3>Travel Magazine — Content & engagement</h3>
+            <p class="muted small">Build dashboards to track readership trends, content performance, ad revenue, and audience demographics for targeted recommendations.</p>
+            <ul class="initiative-list">
+              <li>Dashboards: Pageviews, session duration, conversion funnels</li>
+              <li>Business decisions: Editorial focus, ad pricing</li>
+              <li>Segmentation: Reader personas, geography</li>
+            </ul>
+          </article>
+
+          <article class="initiative-card">
+            <div class="thumb">
+              <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" class="thumb-svg"><rect width="120" height="80" rx="8" fill="#8b5cf6" opacity="0.12"/><text x="60" y="44" text-anchor="middle" font-size="12" fill="#8b5cf6">NGOs</text></svg>
+            </div>
+            <h3>NGOs — Social impact analytics</h3>
+            <p class="muted small">Support NGOs with donor analytics, program monitoring dashboards, and impact measurement to improve outreach and funding allocation.</p>
+            <ul class="initiative-list">
+              <li>Dashboards: Donations, campaign performance, beneficiary metrics</li>
+              <li>Business decisions: Resource allocation, campaign targeting</li>
+              <li>Segmentation: Donor cohorts, high-value supporters</li>
+            </ul>
+          </article>
+
+          <article class="initiative-card">
+            <div class="thumb">
+              <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" class="thumb-svg"><rect width="120" height="80" rx="8" fill="#ef4444" opacity="0.12"/><text x="60" y="44" text-anchor="middle" font-size="12" fill="#ef4444">Small Japanese Businesses</text></svg>
+            </div>
+            <h3>Small Japanese Businesses — Next phase</h3>
+            <p class="muted small">Shift focus to local small businesses in Japan: help with customer segmentation, simple dashboards, and practical advice to boost revenue and retention.</p>
+            <ul class="initiative-list">
+              <li>Dashboards: Customer visits, promotions ROI, inventory insights</li>
+              <li>Business decisions: Localized promotions, stock planning</li>
+              <li>Segmentation: Local customers, tourists, repeat visitors</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p class="muted">&copy; <span id="year"></span> Data Science Club</p>
+      </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

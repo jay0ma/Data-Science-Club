@@ -103,6 +103,18 @@ body{
 .event-meta{display:flex;gap:.5rem;align-items:center;margin-top:6px;min-width:0}
 .event-titles{font-size:0.86rem;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 
+/* Initiatives page */
+.initiatives-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin-top:1.25rem}
+.initiative-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.75rem}
+.initiative-card .thumb{height:80px;display:flex;align-items:center;justify-content:center}
+.thumb-svg{width:100%;height:100%;max-width:180px;border-radius:8px}
+.initiative-list{margin:0;padding-left:1rem;color:var(--muted)}
+.initiative-card h3{margin:0;font-size:1.05rem}
+
+@media (max-width:720px){
+  .initiatives-grid{grid-template-columns:1fr}
+}
+
 @media (max-width:980px){
   .hero-inner{flex-direction:column-reverse}
   .hero-art{width:100%;flex:0 0 auto}
