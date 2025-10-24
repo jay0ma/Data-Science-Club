@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Data Science Club — join us to learn data science, collaborate on projects, and attend workshops." />
+    <title>Data Science Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <svg width="44" height="44" viewBox="0 0 24 24" aria-hidden="true">
+            <rect width="24" height="24" rx="5" fill="#0ea5e9"></rect>
+            <text x="12" y="16" text-anchor="middle" font-size="11" fill="white" font-family="Inter, sans-serif">DS</text>
+          </svg>
+          <span class="brand-text">Data Science Club</span>
+        </a>
+
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+
+        <nav id="mainNav" class="main-nav" role="navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#leaders">Leaders</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 id="heroTitle">Data Science Club</h1>
+            <p class="lede">We explore data, build projects, and learn together — placeholder copy here for now.</p>
+            <p class="hero-cta"><a class="btn-primary" href="#about">Learn more</a> <a class="btn-outline" href="#events">Upcoming events</a></p>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <!-- Decorative SVG illustration -->
+            <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="#06b6d4" stop-opacity="0.9"/>
+                  <stop offset="1" stop-color="#3b82f6" stop-opacity="0.9"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="600" height="400" rx="16" fill="url(#g1)" opacity="0.12"/>
+              <circle cx="120" cy="120" r="60" fill="#a78bfa" opacity="0.12"/>
+              <circle cx="420" cy="260" r="90" fill="#34d399" opacity="0.12"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container" aria-labelledby="aboutTitle">
+        <h2 id="aboutTitle">About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. (Placeholder)</p>
+      </section>
+
+      <section id="goals" class="section container" aria-labelledby="goalsTitle">
+        <h2 id="goalsTitle">Goals</h2>
+        <ul class="goals-list">
+          <li>Lorem ipsum dolor sit amet — learning workshops</li>
+          <li>Consectetur adipiscing elit — collaborative projects</li>
+          <li>Praesent commodo cursus magna — community events</li>
+        </ul>
+      </section>
+
+      <section id="leaders" class="section container" aria-labelledby="leadersTitle">
+        <h2 id="leadersTitle">Leaders</h2>
+        <div class="cards">
+          <article class="card" aria-labelledby="leader1">
+            <div class="avatar-holder">
+              <div class="avatar" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="#60a5fa"/><rect x="4" y="14" width="16" height="6" rx="1" fill="#60a5fa"/></svg></div>
+            </div>
+            <div class="card-body">
+              <h3 id="leader1">Leader Name</h3>
+              <p class="muted">President</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Placeholder bio)</p>
+            </div>
+          </article>
+
+          <article class="card" aria-labelledby="leader2">
+            <div class="avatar-holder">
+              <div class="avatar" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="#f59e0b"/><rect x="4" y="14" width="16" height="6" rx="1" fill="#f59e0b"/></svg></div>
+            </div>
+            <div class="card-body">
+              <h3 id="leader2">Leader Name</h3>
+              <p class="muted">Vice President</p>
+              <p class="small">Short placeholder bio for the vice president.</p>
+            </div>
+          </article>
+
+          <article class="card" aria-labelledby="leader3">
+            <div class="avatar-holder">
+              <div class="avatar" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="#34d399"/><rect x="4" y="14" width="16" height="6" rx="1" fill="#34d399"/></svg></div>
+            </div>
+            <div class="card-body">
+              <h3 id="leader3">Leader Name</h3>
+              <p class="muted">Events Chair</p>
+              <p class="small">Short placeholder bio for the events chair.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="events" class="section container" aria-labelledby="eventsTitle">
+        <h2 id="eventsTitle">Upcoming Events</h2>
+        <div class="calendar-controls">
+          <button id="prevMonth" class="cal-btn" aria-label="Previous month">‹</button>
+          <h3 id="calendarMonth" aria-live="polite"></h3>
+          <button id="nextMonth" class="cal-btn" aria-label="Next month">›</button>
+        </div>
+
+        <div id="calendar" class="calendar" role="grid" aria-label="Event calendar"></div>
+
+        <aside id="dayEvents" class="day-events" aria-live="polite">
+          <h4 id="selectedDayTitle">Select a day to see events</h4>
+          <ul id="selectedDayList"></ul>
+        </aside>
+      </section>
+
+      <section id="contact" class="section container" aria-labelledby="contactTitle">
+        <h2 id="contactTitle">Contact</h2>
+        <p>For more information, contact us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a placeholder.');" aria-label="Contact form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message"></textarea>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn-primary">Send message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p class="muted">&copy; <span id="year"></span> Data Science Club — Placeholder content</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile nav toggle
+      const navToggle = document.getElementById('navToggle');
+      const mainNav = document.getElementById('mainNav');
+      navToggle.addEventListener('click', () => {
+        const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', String(!expanded));
+        mainNav.classList.toggle('open');
+      });
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Simple calendar rendering
+      let events = [];
+
+      // Attempt to load events from events.json, fallback to built-in sample events
+      function loadEventsAndRender(){
+        fetch('events.json').then(r => {
+          if(!r.ok) throw new Error('Could not load events.json');
+          return r.json();
+        }).then(data => {
+          events = data;
+          renderCalendar(viewDate);
+        }).catch(() => {
+          // fallback sample events (if events.json is missing)
+          events = [
+            { date: '2025-11-05', title: 'Intro Workshop', summary: 'Intro to data science (2hr)', details: 'Beginner-friendly intro covering Python, data analysis, and basic visualization. Bring your laptop.' },
+            { date: '2025-11-12', title: 'Project Showcase', summary: 'Member project presentations', details: 'Members present current projects and findings. Open to all; bring slides or a demo.' },
+            { date: '2025-11-18', title: 'Guest Talk', summary: 'Guest speaker: ML 101', details: 'A guest speaker will introduce machine learning fundamentals and common workflows. Q&A to follow.' },
+            { date: '2025-12-02', title: 'Hack Day', summary: 'One-day hackathon', details: 'Form teams and build small projects in one day. Snacks provided. Prizes for top projects.' }
+          ];
+          renderCalendar(viewDate);
+        });
+      }
+
+      const calendarEl = document.getElementById('calendar');
+      const monthLabel = document.getElementById('calendarMonth');
+      const prevBtn = document.getElementById('prevMonth');
+      const nextBtn = document.getElementById('nextMonth');
+      const selectedDayTitle = document.getElementById('selectedDayTitle');
+      const selectedDayList = document.getElementById('selectedDayList');
+
+      let viewDate = new Date();
+
+      function startOfMonth(d){ return new Date(d.getFullYear(), d.getMonth(), 1); }
+      function endOfMonth(d){ return new Date(d.getFullYear(), d.getMonth()+1, 0); }
+
+      function formatMonthYear(d){ return d.toLocaleString(undefined, { month: 'long', year: 'numeric' }); }
+
+      function renderCalendar(date){
+        calendarEl.innerHTML = '';
+        const start = startOfMonth(date);
+        const end = endOfMonth(date);
+        const month = date.getMonth();
+        monthLabel.textContent = formatMonthYear(date);
+
+        // Weekday headers
+        const weekdays = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+        weekdays.forEach(w => {
+          const el = document.createElement('div');
+          el.className = 'cal-head';
+          el.textContent = w;
+          calendarEl.appendChild(el);
+        });
+
+        // pad blanks for first day
+        const pad = start.getDay();
+        for(let i=0;i<pad;i++){
+          const blank = document.createElement('div');
+          blank.className = 'cal-cell blank';
+          calendarEl.appendChild(blank);
+        }
+
+        for(let day=1; day<=end.getDate(); day++){
+          const d = new Date(date.getFullYear(), month, day);
+          const cell = document.createElement('button');
+          cell.className = 'cal-cell';
+          cell.setAttribute('role','gridcell');
+          cell.innerHTML = `<span class="day-num">${day}</span>`;
+
+          const iso = d.toISOString().slice(0,10);
+          const dayEvents = events.filter(e => e.date === iso);
+          if(dayEvents.length){
+            // dots + short title (first title, +N if more)
+            const meta = document.createElement('div');
+            meta.className = 'event-meta';
+
+            const dots = document.createElement('div');
+            dots.className = 'event-dots';
+            dots.innerHTML = dayEvents.map(()=>'•').join(' ');
+            meta.appendChild(dots);
+
+            const titlesArr = dayEvents.map(ev => ev.title);
+            const firstTitle = titlesArr[0] || '';
+            const more = titlesArr.length > 1 ? ` +${titlesArr.length - 1}` : '';
+            const titleSpan = document.createElement('div');
+            titleSpan.className = 'event-titles';
+            titleSpan.textContent = firstTitle + more;
+            meta.appendChild(titleSpan);
+
+            cell.appendChild(meta);
+
+            // tooltip shows all titles
+            const titles = titlesArr.join(' — ');
+            cell.setAttribute('title', titles);
+            cell.setAttribute('aria-label', titles);
+          }
+
+          cell.addEventListener('click', ()=> showDayEvents(iso, d));
+          calendarEl.appendChild(cell);
+        }
+      }
+
+      function showDayEvents(iso, dateObj){
+        const dayEvents = events.filter(e => e.date === iso);
+        selectedDayTitle.textContent = dateObj.toLocaleDateString(undefined, { weekday:'long', month:'long', day:'numeric' });
+        selectedDayList.innerHTML = '';
+        if(!dayEvents.length){
+          const li = document.createElement('li');
+          li.textContent = 'No events scheduled.';
+          selectedDayList.appendChild(li);
+          return;
+        }
+        dayEvents.forEach(ev=>{
+          const li = document.createElement('li');
+          const details = ev.details || ev.description || '';
+          li.innerHTML = `<strong>${ev.title}</strong>` + (details ? `<div class="small">${details}</div>` : '');
+          selectedDayList.appendChild(li);
+        });
+      }
+
+      prevBtn.addEventListener('click', ()=>{ viewDate = new Date(viewDate.getFullYear(), viewDate.getMonth()-1, 1); renderCalendar(viewDate); });
+      nextBtn.addEventListener('click', ()=>{ viewDate = new Date(viewDate.getFullYear(), viewDate.getMonth()+1, 1); renderCalendar(viewDate); });
+
+      // initial load of events and render
+      loadEventsAndRender();
+    </script>
+  </body>
+</html>

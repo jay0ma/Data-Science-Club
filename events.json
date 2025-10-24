@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-11-05",
+    "title": "Intro Workshop",
+    "summary": "Intro to data science (2hr)",
+    "details": "Beginner-friendly intro covering Python, data analysis, and basic visualization. Bring your laptop."
+  },
+  {
+    "date": "2025-11-12",
+    "title": "Project Showcase",
+    "summary": "Member project presentations",
+    "details": "Members present current projects and findings. Open to all; bring slides or a demo."
+  },
+  {
+    "date": "2025-11-18",
+    "title": "Guest Talk",
+    "summary": "Guest speaker: ML 101",
+    "details": "A guest speaker will introduce machine learning fundamentals and common workflows. Q&A to follow."
+  },
+  {
+    "date": "2025-12-02",
+    "title": "Hack Day",
+    "summary": "One-day hackathon",
+    "details": "Form teams and build small projects in one day. Snacks provided. Prizes for top projects."
+  }
+]
